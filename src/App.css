@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.15);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; /* Or fixed height if necessary */
+  background: #e9e9e9; /* Placeholder background */
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 180px; /* Adjust to center the text vertically */
+  font-size: 1.5em;
+  color: #6c757d;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Add responsive design or other custom styles if needed */
